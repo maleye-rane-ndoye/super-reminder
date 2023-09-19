@@ -13,5 +13,7 @@
             "email": "maleyeranendoye@Mydebian.lan"
         }
     ],
-    "require": {}
+    "require": {
+        "altorouter/altorouter": "1.1.0"
+    }
 }

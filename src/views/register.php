@@ -28,16 +28,16 @@
             <article class="re-box-todo">
                 <h1>INSCRIPTION </h1>
                 <form class="form-content" method="POST" id="form">
-                      <input type="text" name="nom" id="lastname" placeholder="Entrer votre nom" class="box-content">
-                      <p id="errorlastname"></p>
-                      <input type="text" name="prenom" id="firstname" placeholder="Entrer votre prénom" class="box-content">
-                      <p id="errorfirstname"></p>
-                      <input type="email" name="email" id="email" placeholder="Entrer votre adresse mail" class="box-content">
-                      <p id="errormail"></p>
+                      <input type="text" name="lastname" id="lastname" placeholder="Entrer votre nom" class="box-content">
+                      
+                      <input type="text" name="firstname" id="firstname" placeholder="Entrer votre prénom" class="box-content">
+                      
+                      <input type="email" name="login" id="login" placeholder="Entrer votre adresse mail" class="box-content">
+                      
                       <input type="password" name="password" id="password" placeholder="Entrer votre mot de passe" class="box-content">
-                      <p id="errorpassword"></p>
+                      
                       <input type="password" name="cpassword" id="cpassword" placeholder="Confirmer votre mot de passe" class="box-content">
-                      <p id="errorcpassword"></p>
+                      
                       <input type="submit" name="submit" id="submit" value="Envoyer" class="button">
                 </form>
             </article>

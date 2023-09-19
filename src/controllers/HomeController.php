@@ -8,7 +8,7 @@ class HomeController {
 public function showHome($user = "Maleye"){
 
     require __DIR__ . '/../views/homePage.php';
-    // require __DIR__ .  '/../views/homePage.php';
+    
 }
 
 
