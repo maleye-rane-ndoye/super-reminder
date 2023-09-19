@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family:Helvetica, sans-serif;
+    background-color:  #023047;;
+}
+
+/* style de ma nav barre */
+.nav{    
+    width: 100%;
+    height: 5em;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    
+}
+.logo-todolist{ 
+    box-sizing: border-box;
+    padding: 5px;
+    width: 25%;
+    align-items: center;
+    display: flex;
+}
+.logo-todolist img{
+    width: 80px;
+    text-align: center;
+    margin: 20px 20px;
+}
+.logo-todolist p{
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: x-large;
+    color: #023047;
+}
+.flex{
+    flex: 2;
+}
+.profil{
+    width: 25rem;
+    height:5em;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;margin: 0 30px;
+
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 20px 20px;
+    text-align: center;
+    align-items: center;
+}
+.avatar p{
+
+    font-family: helvetica;
+    font-size: larger;
+    font-weight: bold;
+    color: #023047;
+}
+.username{
+    width:auto;
+    text-align: center;
+    font-family: helvetica;
+    font-size: large;
+    font-weight: bold;
+    color:#023047;
+}
+/* le style de la section pretodo */
+
+.pre-todo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.content{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 30px 0;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.549);
+}
+/* style de la section posttodo */
+.post-todo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.post-todo div{
+    width: 630px;
+    height: 500px;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.549);
+}
+
+/* style interne des div pretodo */
+article hr{
+    color: gray;
+}
+.box-pre-todo{
+    margin: 20px 20px;
+    width: 360px;
+    height: 460px;
+   
+    align-items: center;
+    text-align: center;
+    
+}
+.box-pre-todo h1{
+    font-family: helvetica;
+    font-size: larger;
+    font-weight: bold;
+    color: #FF2063;
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 19px 0;
+    
+}
+.display p{
+    margin: 0 20px;
+}
+
+table{
+        width: 100%;
+        display: table;
+        border-collapse: separate;
+        box-sizing: border-box;
+        text-indent: initial;
+        white-space: normal;
+        line-height: normal;
+        font-family: helvetica;
+        font-weight: normal;
+        font-size: medium;
+        font-style: normal;
+        color:#023047 ;
+        text-align: start;
+        border-spacing: 2px;
+        border-color: grey;
+        font-variant: normal;
+    }
+
+
+ table td{
+    text-align: center;
+    font-family:Helvetica;
+}
+
+.box-post-todo{
+    margin: 20px 20px;
+    width: 590px;
+    height: 460px;
+    background-color: aqua;
+}
+.box-post-todo h1{
+    font-family: helvetica;
+    font-size: larger;
+    font-weight: bold;
+    color: #FF2063;
+}
+
+.re-todo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.re-content{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    margin: 30px 0;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.549);
+}
+.re-box-todo{
+    margin: 20px 20px;
+    width: 560px;
+    height: 460px;
+    align-items: center;
+    
+}
+.re-box-todo h1{
+    text-align: center;
+    font-family: helvetica;
+    font-size: x-large;
+    font-weight: bold;
+    color:#023047;
+}
+
+.form-content{
+    display: block;
+    flex-direction: column;
+}
+input.box-content{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0px 0px;
+    border: 1px solid white;
+    background: rgba(143, 139, 139, 0.521);
+    color: black;
+    font-family: helvetica;
+    font-size: large;
+}
+input.button{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    border: 1px solid white;
+    background:#023047;
+    color: white;
+    font-family: helvetica;
+    font-size: large;
+    font-weight: bold;
+}
+input.button:hover{
+    opacity: 0.7 ;
+}
+
+ 
+canvas#radar.canvas{
+    width: 342px;
+    height: 342px;
+}
+.progress-out{
+    background-color: rgba(143, 139, 139, 0.521);
+    border-radius: 20px;
+    height: 10px;
+}
+.progress-in{
+    background-color: #023047;
+    border-radius: 20px;
+    height: 10px;
+    width: 50%;
+}
+#name{
+    font-family: helvetica;
+    font-size: large;
+    font-weight: bold;
+}

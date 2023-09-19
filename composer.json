@@ -1,0 +1,17 @@
+{
+    "name": "maleyeranendoye/super-reminder",
+    "autoload": {
+        "psr-4": {
+            "App\\Models\\": "src/models",
+            "App\\Views\\": "src/views",
+            "App\\Controllers\\": "src/controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "maleye rane",
+            "email": "maleyeranendoye@Mydebian.lan"
+        }
+    ],
+    "require": {}
+}
